@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^(.*)/$ $1 [R=301,L]
+
+RewriteRule usuarios usuarios.php [QSA]

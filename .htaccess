@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^(.*)/$ $1 [R=301,L]
+
+RewriteRule usuarios usuarios.php [QSA]
+RewriteRule ventas ventas.php [QSA]
+RewriteRule pedidos pedidos.php [QSA]
+RewriteRule libros libros.php [QSA]
+RewriteRule editoriales editoriales.php [QSA]
+RewriteRule proveedores proveedores.php [QSA]
+RewriteRule clientes clientes.php [QSA]
+
+RewriteRule cambiar-pass changePass.php [QSA]
+
+RewriteRule recibo/([0-9]+) viewPdf.php?tup=$1 [QSA]
