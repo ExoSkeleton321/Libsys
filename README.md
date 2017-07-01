@@ -1,4 +1,4 @@
-# Libsys
+# Libsys (this project is no longer maintained)
 Software to control a library. / Software para el control de una libreria.
 
 <b>Spanish</b>
